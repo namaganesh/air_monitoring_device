@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="100dp"
+    android:layout_height="70dp"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <!--<com.google.android.material.imageview.ShapeableImageView
+        android:layout_width="124dp"
+        android:layout_height="99dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="5dp"
+        app:shapeAppearanceOverlay="@style/ImageView.Circle"
+        android:src="@drawable/profile_img" />-->
+
+
+    <ImageView
+        android:id="@+id/profile_circle"
+        android:layout_width="87dp"
+        android:layout_height="70dp"
+        android:src="@drawable/profile_img" />
+
+    <ImageView
+        android:layout_width="52dp"
+        android:layout_height="31dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="-3dp"
+        android:scrollbarAlwaysDrawHorizontalTrack="true"
+        android:src="@drawable/ic_camera_icon" />
+
+</RelativeLayout>
+

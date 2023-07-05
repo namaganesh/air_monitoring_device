@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="307dp"
+    android:layout_height="45dp"
+    android:background="@drawable/border">
+
+    <TextView
+        android:id="@+id/invite_people"
+        android:layout_width="307dp"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:paddingTop="10dp"
+        android:text="Invite People"
+        android:textColor="#FF018786"
+        android:textSize="14sp"
+        android:textStyle="normal" />
+
+    <include
+        android:id="@+id/invite_button"
+        layout="@layout/invite_button"
+        android:layout_width="87dp"
+        android:layout_height="36dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:drawableRight="@+id/invite_people"
+        tools:layout_editor_absoluteX="172dp"
+        tools:layout_editor_absoluteY="10dp" />
+
+</RelativeLayout>

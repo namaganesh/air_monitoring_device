@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="horizontal"
+    tools:context=".SigninActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo3" />
+
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="248dp"
+        android:layout_height="70dp"
+        android:layout_below="@id/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="119dp"
+        android:text="@string/smart_indoor_air_quality_meter"
+        android:textAlignment="center"
+        android:textColor="#001E2C"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:id="@+id/tab_sign_in"
+        android:layout_width="272dp"
+        android:layout_height="75dp"
+        android:layout_below="@+id/tvTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/ic_sign_in_button" />
+
+    <TextView
+        android:id="@+id/tab_sign_in_text"
+        android:layout_width="272dp"
+        android:layout_height="75dp"
+        android:layout_alignTop="@+id/tab_sign_in"
+        android:layout_centerHorizontal="true"
+        android:padding="20dp"
+        android:text="@string/sign_in_with_email"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/tab_google"
+        android:layout_width="110dp"
+        android:layout_height="73dp"
+        android:layout_below="@+id/tab_sign_in"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="414dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/border"
+        android:orientation="vertical"
+        android:src="@drawable/ic_gmail_icon" />
+
+    <ImageView
+        android:id="@+id/tab_facebook"
+        android:layout_width="110dp"
+        android:layout_height="73dp"
+        android:layout_below="@+id/tab_sign_in"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="217dp"
+        android:layout_marginTop="414dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/border"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_facebook_icon" />
+
+
+</RelativeLayout>
